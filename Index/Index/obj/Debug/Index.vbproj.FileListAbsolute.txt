@@ -26,3 +26,11 @@ C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\bin\Debug\Index.ex
 C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.exe
 C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.xml
 C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.pdb
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\bin\Debug\Index.exe
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\bin\Debug\Index.pdb
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\bin\Debug\Index.xml
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.vbprojResolveAssemblyReference.cache
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.Ins_util.resources
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.Resources.resources
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.Listar.resources
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.vbproj.GenerateResource.Cache

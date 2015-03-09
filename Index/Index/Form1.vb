@@ -1,7 +1,21 @@
-﻿Public Class Ins_util
+﻿Imports System.Xml
+Public Class Ins_util
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        WebBrowser1.Navigate("http://127.0.0.1/webservice/index.php")
+
+        Dim oXML As New XmlDocument
+
+        Dim ArquivoXML As String = "C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\config.xml"
+        oXML.Load(ArquivoXML)
+        Dim linkkk As String = oXML.SelectSingleNode("ln").ChildNodes(0).InnerText
+
+        WebBrowser1.Navigate(linkkk)
+
+
+
+
+
     End Sub
 
 
