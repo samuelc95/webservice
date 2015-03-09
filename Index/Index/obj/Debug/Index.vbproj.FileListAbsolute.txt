@@ -22,3 +22,7 @@ C:\Users\Samuel Costa\Desktop\Index\Index\obj\Debug\Index.Ins_util.resources
 C:\Users\Samuel Costa\Desktop\Index\Index\obj\Debug\Index.Resources.resources
 C:\Users\Samuel Costa\Desktop\Index\Index\obj\Debug\Index.Listar.resources
 C:\Users\Samuel Costa\Desktop\Index\Index\obj\Debug\Index.vbproj.GenerateResource.Cache
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\bin\Debug\Index.exe.config
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.exe
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.xml
+C:\Users\Samuel Costa\Documents\GitHub\webservice\Index\Index\obj\Debug\Index.pdb

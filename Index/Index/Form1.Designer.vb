@@ -29,7 +29,6 @@ Partial Class Ins_util
         Me.txt_email = New System.Windows.Forms.TextBox()
         Me.txt_pass = New System.Windows.Forms.TextBox()
         Me.txt_nick = New System.Windows.Forms.TextBox()
-        Me.Btn_listar = New System.Windows.Forms.Button()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.SuspendLayout()
         '
@@ -38,7 +37,7 @@ Partial Class Ins_util
         Me.Btn_criar.Location = New System.Drawing.Point(102, 104)
         Me.Btn_criar.Name = "Btn_criar"
         Me.Btn_criar.Size = New System.Drawing.Size(163, 23)
-        Me.Btn_criar.TabIndex = 13
+        Me.Btn_criar.TabIndex = 10
         Me.Btn_criar.Text = "Criar Utilizador"
         Me.Btn_criar.UseVisualStyleBackColor = True
         '
@@ -74,46 +73,38 @@ Partial Class Ins_util
         Me.txt_email.Location = New System.Drawing.Point(102, 52)
         Me.txt_email.Name = "txt_email"
         Me.txt_email.Size = New System.Drawing.Size(163, 20)
-        Me.txt_email.TabIndex = 9
+        Me.txt_email.TabIndex = 2
         '
         'txt_pass
         '
         Me.txt_pass.Location = New System.Drawing.Point(102, 78)
         Me.txt_pass.Name = "txt_pass"
         Me.txt_pass.Size = New System.Drawing.Size(163, 20)
-        Me.txt_pass.TabIndex = 8
+        Me.txt_pass.TabIndex = 3
+        Me.txt_pass.UseSystemPasswordChar = True
         '
         'txt_nick
         '
         Me.txt_nick.Location = New System.Drawing.Point(102, 26)
         Me.txt_nick.Name = "txt_nick"
         Me.txt_nick.Size = New System.Drawing.Size(163, 20)
-        Me.txt_nick.TabIndex = 7
-        '
-        'Btn_listar
-        '
-        Me.Btn_listar.Location = New System.Drawing.Point(102, 133)
-        Me.Btn_listar.Name = "Btn_listar"
-        Me.Btn_listar.Size = New System.Drawing.Size(163, 23)
-        Me.Btn_listar.TabIndex = 14
-        Me.Btn_listar.Text = "Listar"
-        Me.Btn_listar.UseVisualStyleBackColor = True
+        Me.txt_nick.TabIndex = 1
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(283, 26)
+        Me.WebBrowser1.Location = New System.Drawing.Point(748, 300)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(453, 291)
+        Me.WebBrowser1.Size = New System.Drawing.Size(21, 20)
         Me.WebBrowser1.TabIndex = 15
+        Me.WebBrowser1.Visible = False
         '
         'Ins_util
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(769, 354)
+        Me.ClientSize = New System.Drawing.Size(371, 216)
         Me.Controls.Add(Me.WebBrowser1)
-        Me.Controls.Add(Me.Btn_listar)
         Me.Controls.Add(Me.Btn_criar)
         Me.Controls.Add(Me.Lbl_pass)
         Me.Controls.Add(Me.Lbl_e_mail)
@@ -134,7 +125,6 @@ Partial Class Ins_util
     Friend WithEvents txt_email As System.Windows.Forms.TextBox
     Friend WithEvents txt_pass As System.Windows.Forms.TextBox
     Friend WithEvents txt_nick As System.Windows.Forms.TextBox
-    Friend WithEvents Btn_listar As System.Windows.Forms.Button
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
 
 End Class
